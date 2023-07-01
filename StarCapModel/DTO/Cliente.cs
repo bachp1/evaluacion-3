@@ -21,11 +21,9 @@ namespace StarCapModel
                 string nivelTxt = "";
                 switch (nivel)
                 {
-                    case 1: nivelTxt = "Silver";
+                    case 1: nivelTxt = "Empresa";
                         break;
-                    case 2: nivelTxt = "Gold";
-                        break;
-                    case 3: nivelTxt = "Platinum";
+                    case 2: nivelTxt = "Domicilio";
                         break;
                 }
                 return nivelTxt;

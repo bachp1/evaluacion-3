@@ -14,22 +14,22 @@ namespace StarCapModel.DAL
             {
                 new Bebida()
                 {
-                    Nombre = "Frapuccino",
+                    Nombre = "PowerMonitor 1000",
                     Codigo = "FP-01"
                 },
                 new Bebida()
                 {
-                    Nombre = "Cafe Americano",
+                    Nombre = "PowerMonitor 3000",
                     Codigo = "CAF-01"
                 },
                 new Bebida()
                 {
-                    Nombre = "Te del Dia",
+                    Nombre = "Monofasico",
                     Codigo = "TE-01"
                 },
                 new Bebida()
                 {
-                    Nombre = "Te Chai",
+                    Nombre = "Trifasico",
                     Codigo = "TE-02"
                 }
             };

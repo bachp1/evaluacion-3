@@ -9,7 +9,7 @@ using System.Web.UI.WebControls;
 
 namespace StarCap
 {
-    public partial class VerClientes : System.Web.UI.Page
+    public partial class VerMedidor : System.Web.UI.Page
     {
         private IClientesDAL clientesDAL = new ClientesDALObjetos();
         protected void Page_Load(object sender, EventArgs e)
@@ -31,11 +31,9 @@ namespace StarCap
         {
             if (e.CommandName=="elimina")
             {
-                //significa que el usuario apreto boton
-                //por lo tanto, eliminar el cliente
 
-                string rut = Convert.ToString(e.CommandArgument);
-                clientesDAL.Eliminar(rut);
+                string medidor = Convert.ToString(e.CommandArgument);
+                clientesDAL.Eliminar(medidor);
                 cargagrilla();
             }
         }

@@ -11,7 +11,7 @@ namespace StarCap
 {
 
 
-    public partial class VerClientes
+    public partial class VerMedidor
     {
 
         /// <summary>
